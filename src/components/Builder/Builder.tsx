@@ -1,5 +1,4 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import styles from './Builder.module.scss';
 import Designer from "../Designer/Designer";
 
@@ -9,9 +8,5 @@ const Builder = () => (
       <Designer/>
   </div>
 );
-
-Builder.propTypes = {};
-
-Builder.defaultProps = {};
 
 export default Builder;
